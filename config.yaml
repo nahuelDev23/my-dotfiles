@@ -9,8 +9,16 @@ dotfiles:
   f_picom.conf:
     src: picom.conf
     dst: ~/picom.conf
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  f_config.ini:
+    src: config/polybar/config.ini
+    dst: ~/.config/polybar/config.ini
 profiles:
   archlinux:
     dotfiles:
     - d_config
     - f_picom.conf
+    - d_polybar
+    - f_config.ini
