@@ -1,0 +1,16 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_config:
+    src: config
+    dst: ~/.config
+  f_picom.conf:
+    src: picom.conf
+    dst: ~/picom.conf
+profiles:
+  archlinux:
+    dotfiles:
+    - d_config
+    - f_picom.conf

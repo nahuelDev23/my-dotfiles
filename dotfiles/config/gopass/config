@@ -1,0 +1,6 @@
+[mounts]
+	path = /home/akerman/.local/share/gopass/stores/root
+[recipients]
+	hash = 97f5e68ddfbcf90203e52e4414dc393c30d30c0f9457818caf00aa4bf8a36bba
+[editor]
+	editor = nvim/
