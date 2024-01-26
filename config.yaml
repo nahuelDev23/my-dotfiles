@@ -15,6 +15,9 @@ dotfiles:
   f_config.ini:
     src: config/polybar/config.ini
     dst: ~/.config/polybar/config.ini
+  f_owm-key:
+    src: owm-key
+    dst: ~/.owm-key
 profiles:
   archlinux:
     dotfiles:
@@ -22,3 +25,4 @@ profiles:
     - f_picom.conf
     - d_polybar
     - f_config.ini
+    - f_owm-key
